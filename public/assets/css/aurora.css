@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+# FAB Mic button - Wavy Ripple Effect (Active State Controlled)
+--------------------------------------------------------------*/
+.fab-mic {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    left: 50%;
+    bottom: 15px;
+    z-index: 996;
+    background: #008EFC;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translate(-50%);
+    transition: all 0.4s;
+    box-shadow: 0 0 10px rgba(0, 142, 252, 0.6);
+  }
+  
+  /* Mic Icon */
+  .fab-mic i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+  }
+  
+  /* Expanding Ripple Effect (Only active when the 'active' class is added) */
+  .fab-mic.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 142, 252, 0.4);
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    animation: ripple 1.5s infinite ease-out;
+  }
+  
+  /* Ripple Animation */
+  @keyframes ripple {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(2.5);
+      opacity: 0;
+    }
+  }
+  

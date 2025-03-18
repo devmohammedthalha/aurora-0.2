@@ -1,0 +1,170 @@
+data = `[
+
+    {"..." : ""},
+    
+    {"hi" : "hello",
+    "hello" : "hello",
+    "hai" : "hello"},
+    
+    {"how are you" : "Thanks For Asking, I'm Fine...",
+    "how about you" : "Thanks For Asking, I'm Fine...",
+    "how are you doing" : "Thanks For Asking, I'm Fine...",
+    "is all well" : "Thanks For Asking, I'm Fine..."},
+
+    {
+        "what is aurora": "Aurora is an AI-powered assistant designed to enhance customer support with voice and chatbot capabilities.",
+        "tell me about aurora": "Aurora is an AI-powered assistant designed to enhance customer support with voice and chatbot capabilities.",
+        "who created aurora": "Aurora was launched in 2022 with the goal of replacing traditional customer support with AI-driven solutions.",
+        "what is arora": "Aurora is an AI-powered assistant designed to enhance customer support with voice and chatbot capabilities.",
+        "tell me about arora": "Aurora is an AI-powered assistant designed to enhance customer support with voice and chatbot capabilities.",
+        "who created arora": "Aurora was launched in 2022 with the goal of replacing traditional customer support with AI-driven solutions."
+    },
+
+    {
+        "what does aurora do": "Aurora provides AI assistants for businesses, offering voice and chatbot-based customer support.",
+        "how does aurora work": "Aurora uses AI models like JSON, BERT, and GENA to answer customer queries through voice or chat.",
+        "what does arora do": "Aurora provides AI assistants for businesses, offering voice and chatbot-based customer support.",
+        "how does arora work": "Aurora uses AI models like JSON, BERT, and GENA to answer customer queries through voice or chat."
+    },
+
+    {
+        "what are the aurora models": "Aurora has three models: JSON for instant keyword-based responses, BERT for precise answers, and GENA for chatbot interactions.",
+        "explain aurora models": "Aurora offers JSON for quick FAQs, BERT for business-specific Q&A, and GENA for conversational AI.",
+        "what are the arora models": "Aurora has three models: JSON for instant keyword-based responses, BERT for precise answers, and GENA for chatbot interactions.",
+        "explain arora models": "Aurora offers JSON for quick FAQs, BERT for business-specific Q&A, and GENA for conversational AI."
+    },
+
+    {
+        "is aurora free": "Yes, Aurora is currently available for free with no sign-ups required.",
+        "do I need to sign up for aurora": "No, Aurora can be used without any sign-ups."
+    },
+
+    {
+        "can aurora replace human support": "Aurora enhances customer support by handling queries efficiently, reducing human workload but not completely replacing it.",
+        "is aurora better than human support": "Aurora provides instant and consistent responses, but for complex queries, human support may still be needed.",
+        "replace customer support": "Aurora provides instant and consistent responses, but for complex queries, human support may still be needed."
+    },
+
+    {
+        "can aurora track orders": "Future updates will allow Aurora to assist with order tracking and customer service tasks.",
+        "can aurora handle complaints": "Aurora is designed to assist with customer queries, and future updates will include complaint management."
+    },
+
+    {
+        "is aurora a chatbot": "Aurora is both a chatbot and a voice assistant, depending on the model used.",
+        "does aurora support voice": "Yes, Aurora offers voice assistance through JSON and BERT models."
+    },
+
+    {
+        "how to integrate aurora on my website": "Aurora can be easily integrated with a simple script. Contact us for more details!",
+        "how do I add aurora to my business": "Aurora can be added to your business website effortlessly. Try it for free today!"
+    },
+
+    {
+        "what is the json model": "The JSON Model is a keyword-based voice assistant that provides instant responses.",
+        "what is the bert model": "The BERT Model uses AI to deliver precise answers based on business-specific data.",
+        "what is the gena model": "The GENA Model is an advanced AI-powered chatbot that can handle open-ended conversations.",
+        "json model": "The JSON Model is a keyword-based voice assistant that provides instant responses.",
+        "bert model": "The BERT Model uses AI to deliver precise answers based on business-specific data.",
+        "gena model": "The GENA Model is an advanced AI-powered chatbot that can handle open-ended conversations."
+    },
+
+    {
+        "how can aurora help my business": "Aurora enhances customer support, answers queries instantly, and improves user engagement.",
+        "why should I use aurora": "Aurora provides fast, intelligent, and automated customer support with no setup hassle."
+    },
+
+    {
+        "is aurora secure": "Yes, Aurora is built with data security in mind, ensuring safe and reliable interactions.",
+        "is aurora customizable": "Yes, Aurora can be customized based on business needs and customer preferences."
+    },
+    
+    {"what plan suits me" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "plans you have": "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "plans for me" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "Pricing plans" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "subscription plans" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you..."},
+    
+    {"what will happen if i stopped the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "is it ok to stop the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "can i stop the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "can i cancel the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "cancel the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "stop the subscription" : "If you stopped subscribing, your services would be cut off..."},
+    
+    {"why do i have to subscribe for a website" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to subscribe" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i have to subscribe" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to subscribe for my website" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to pay for my site": "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to subscribe for my site" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to pay for my website" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc..."},
+    
+    {"what do you do" : "We create Premium and Qualitative Website for Our Clients according to their need...",
+    "what you do" : "We create Premium and Qualitative Website for Our Clients according to their need...",
+    "what is your work" : "We create Premium and Qualitative Website for Our Clients according to their need...",
+    "your work" : "We create Premium and Qualitative Website for Our Clients according to their need..."},
+    
+    {"is consultation free" : "The Consultation is completely free... And I will help you with it",
+    "consultation fee" : "The Consultation is completely free... And I will help you with it",
+    "consultation charge" : "The Consultation is completely free... And I will help you with it",
+    "consultation price" : "The Consultation is completely free... And I will help you with it",
+    "consultation cost" : "The Consultation is completely free... And I will help you with it"},
+    
+    {"is website the only service provided by you" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "your main service" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "do you only create websites" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "are websites the only thing created by you" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "do you create websites" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "do you create website" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc..."},
+    
+    {"your future plans" : "In Future we may get our hands into App Development, Artificial Intelligence, Machine Learning...",
+    "your plans" : "In Future we may get our hands into App Development, Artificial Intelligence, Machine Learning...",
+    "your plans for future" : "In Future we may get our hands into App Development, Artificial Intelligence, Machine Learning..."},
+    
+    {"what is your superior motive" : "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services.",
+    "what is your ulterior motive" : "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services.,",
+    "what is the ulterior motive" :  "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services.",
+    "what is the superior motive" : "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services."},
+    
+    {"will you help in the growth of my business" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you help you in my growth" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you be a part of my growth" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you help me move forward" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you be helpful for my success" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "help me" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People."},
+    
+    {"do you like me" : "I like you so much than anything in the world",
+    "like me" : "I like you",
+    "i love you" : "oh.. So sweet... I love you too as a friend",
+    "do you love me" : "Yes, I love as a friend",
+    "love me" : "I love you as a friend",
+    "marry me" : "Sure... When can we have our engagement",
+    "propose me" : "You should sign up for a marathon because you are running in my mind and heart without a break",
+    "will you be my queen" : "I would love to rule along with you my king",
+    "will you be my valentine" : "I would love to be your valentine",
+    "are you married" : "Yes, I'm committed to my work"},
+    
+    {"tell me a joke": "An apple a day keeps the doctor away Or at least it does if you throw it hard enough.",
+    "kid with me": "Patient: Oh doctor, I'm just so nervous. This is my first operation... Doctor: Don't worry. Mine too.",
+    "humour me" : "You're not completely useless. You can always serve as a bad example.",
+    "crack  a joke" : "My wife left a note on the fridge that said, 'This isn't working.' I'm not sure what she's talking about. I opened the fridge door and it's working fine!"},
+    
+    {"toss a coin" : "head"},
+    
+    {"who is your boss" : "It's you...",
+    "who created you" : "I'm created by a group of teenagers...",
+    "who is your creator" : "I'm created by a group of teenagers...",
+    "tell me about yourself" : "Well, In short I'm an AI in service for you",
+    "what's your name" : "I'm Aurora, Your Assistant",
+    "what is your name" : "I'm Aurora, Your Assistant"},
+    
+    {"what is your goal" : "My only goal is to serve you",
+    "what's your goal" : "My only goal is to serve you",
+    "will you obey me" : "Of course... I'm all yours",
+    "obey my order" : "At your feet... My Boss"},
+    
+    {"buy me" : "Ordered successfully!",
+    "buy a" : "Ordered successfully!"}
+    
+    ]`;

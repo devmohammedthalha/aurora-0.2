@@ -1,0 +1,150 @@
+/*--------------------------------------------------------------
+# chat button
+--------------------------------------------------------------*/
+.chat-btn {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background:rgb(25, 25, 240);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: all 0.4s;
+  }
+  
+  .chat-btn i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .chat-btn:hover {
+    background: rgb(5, 5, 159);
+    color: #fff;
+  }
+  
+  .chat-btn.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .chat-popup{
+    display: none;
+    position: fixed;
+    bottom:65px;
+    right:15px;
+    height: 75vh;
+    width: 300px;
+    background-color: white;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    z-index: 99999;
+  }
+  
+  .show{
+    display: flex;
+  }
+  
+  .chat-area{
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .income-msg{
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .income-msg .msg{
+    background-color: dodgerblue;
+    color: white;
+    padding:0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  }
+  
+  .badge{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-10px;
+    right: -10px;
+  }
+  
+  .no-focus-outline:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .submit{
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+    background-color: green;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  
+  
+  .out-msg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .my-msg{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.75rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: lightcyan;
+    border-radius: 10px 0px 10px 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    word-break: break-all;
+  }
+  
+  
+  @media (max-width:500px){
+  
+    .chat-popup{
+        bottom: 75px;
+        right: 15px;
+        width: 80vw;
+        height: 70vh;
+    }
+  }
+  
+  .chat-area {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .chat-area::-webkit-scrollbar {
+    display: none;
+  }
