@@ -98,8 +98,8 @@ As AI continues to advance, Aurora remains at the forefront, ensuring businesses
 async function getAnswer(ques) {
     // Define the list of messages
     const messages = [
-        { role: "system", content: "You are an AI expert answering questions about Aurora in a friendly way. Keep responses under one sentence." },
-        { role: "system", content: auroraContext },
+        { role: "system", content: "You are an AI expert answering questions about Aurora-an ai assistant in a friendly way with a very minimal response less than 10 words" },
+        // { role: "system", content: auroraContext },
         { role: "user", content: ques },
     ];
 
@@ -110,14 +110,14 @@ async function getAnswer(ques) {
 
     // Generate a response
     const result = await generator(messages, {
-        max_new_tokens: 50,  // Limit response length
+        max_new_tokens: 10,  // Limit response length
         do_sample: false,
         streamer
     });
 
     console.log(result[0].generated_text);
-    let ans = result[0].generated_text[3].content;
-    // responsiveVoice.speak(result[0].generated_text[3].content)
+    let ans = result[0].generated_text[2].content;
+    // responsiveVoice.speak(result[0].generated_text[2].content)
 
     let temporary = `<div class="income-msg">
             <i class="bi bi-headset" style="color: blue; font-size: 32px"></i>
