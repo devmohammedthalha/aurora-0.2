@@ -1,14 +1,8 @@
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyC3tb60pmrDOa-FJesmSgHz9B0vwUQRR4Y",
-    authDomain: "sample-aurora.firebaseapp.com",
-    databaseURL: "https://sample-aurora-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "sample-aurora",
-    storageBucket: "sample-aurora.appspot.com",
-    messagingSenderId: "86196314998",
-    appId: "1:86196314998:web:d5c4237b84bd8d5158d057"
-};
+// const firebaseConfig = {
+    
+// };
 
 // initializing firebase app
 const app = firebase.initializeApp(firebaseConfig);
